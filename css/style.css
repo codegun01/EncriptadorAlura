@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightgray;
+}
+
+h1{
+    font-size: 80px;
+    color: darkblue;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+.container{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.input_box{
+    width: 50%;
+    min-height: 800px;
+    
+    
+}
+
+
+.text_box{
+    background: white;
+    width: 25%;
+    min-height: 800px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+#texto3{
+    margin-left:3%;
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+    border: none;
+    outline: none;
+    
+    
+}
+
+#btn_copiar{
+    background: white;
+    color: gray;
+    display: block;
+    width: 90%;
+    height: 70px;
+    border-radius: 29px;
+    border: 1px solid blue;
+    margin-left: 5%;
+    margin-top: 90%;
+    font-weight: 700;
+    font-size: medium;
+}
+
+#btn_copiar:hover{
+    background: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.alerta{
+    margin-top: 45%;
+    margin-left: 15%;
+}
+
+.error{
+    margin-left: 15%;
+    display:none;
+    padding: 0;
+   
+}
+
+.icono{
+    background: darkblue;
+    color: white;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 6px;
+    padding: 4px;
+    font-size: 10px;
+}
+
+.img{
+    width: 30px;
+    line-height: 30px;
+    margin: none;
+    border: none;
+    padding: none;
+}
+#encript1{
+    background:lightgray;
+    color: gray;
+    display: inline;
+    width: 25%;
+    height: 60px;
+    border-radius: 29px;
+    border: 1px solid darkblue;
+    margin-left: 15%;
+   
+    font-weight: 700;
+    font-size: medium;
+}
+
+#encript1:hover{
+    background: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#text1{
+    display: block;
+    width: 50%;
+    border: none;
+    margin: 15% auto;
+    outline: none;
+    font-size: large;
+    color: darkblue;
+    background: lightgrey;
+    
+}
+
+
+
+#text1:hover{
+    border-bottom: 2px solid gray;
+    
+}
+
